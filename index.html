@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Haam.food — Farm-Grown Mangoes, Made With Love</title>
-<meta name="description" content="Haam.food turns farm-grown mangoes into pickles, dehydrated snacks, puree, fruit leather and gifting mangoes — made the way family recipes are supposed to be made.">
+<title>Haam.food — Premium Farm-Grown Mango Products</title>
+<meta name="description" content="Haam.food — small-batch, farm-grown mango pickle, dehydrated mango, mango leather and mango puree. Premium quality, priced and packaged to international standards.">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,9 +22,9 @@
       <span>Haam<span class="logo-dot">.food</span></span>
     </a>
     <nav class="site-nav" id="site-nav">
-      <a href="#story">Our Story</a>
-      <a href="#products">Products</a>
+      <a href="#shop">Shop</a>
       <a href="#wholesale">Wholesale</a>
+      <a href="#about">About</a>
       <a href="#contact" class="nav-cta">Get in Touch</a>
     </nav>
     <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
@@ -38,117 +38,201 @@
   <section class="hero" id="top">
     <div class="container hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow">From our family farm</p>
-        <h1>Sun-ripened mangoes,<br>turned into food you'll love.</h1>
+        <p class="eyebrow">Farm to Jar, Small-Batch</p>
+        <h1>Premium mango,<br>crafted the way it should be.</h1>
         <p class="hero-lede">
-          We grow our own mangoes, then turn them into pickles, snacks, purees, leather
-          and gifting boxes — starting with a recipe that's been in our family for
-          40 years, and a word our daughter says when she's hungry: <em>"Haam."</em>
+          Sun-ripened fruit from our own farm, turned into pickle, dehydrated
+          snacks, fruit leather and puree — made in small batches, with nothing
+          to hide on the label.
         </p>
         <div class="hero-actions">
-          <a href="#products" class="btn btn-primary">Explore Our Products</a>
-          <a href="#story" class="btn btn-ghost">Read Our Story</a>
+          <a href="#shop" class="btn btn-primary">Shop the Collection</a>
+          <a href="#about" class="btn btn-ghost">Our Story</a>
+        </div>
+        <div class="trust-strip">
+          <span>Farm Direct</span>
+          <span>No Preservatives</span>
+          <span>Small-Batch Crafted</span>
+          <span>Naturally Grown</span>
+          <span>Reusable Jars</span>
         </div>
       </div>
       <div class="hero-art" aria-hidden="true">
-        <img src="images/hero-mango.svg" alt="" class="hero-mango">
+        <img src="images/hero-produce.svg" alt="" class="hero-mango">
       </div>
     </div>
   </section>
 
-  <section class="story" id="story">
-    <div class="container story-inner">
-      <div class="story-art" aria-hidden="true">
-        <img src="images/story-illustration.svg" alt="">
-      </div>
-      <div class="story-copy">
-        <p class="eyebrow">Our Story</p>
-        <h2>It started on our farm — and with a word from our daughter.</h2>
-        <p>
-          Every season, our family's mango trees give us far more fruit than we could
-          ever eat fresh. Rather than let a single mango go to waste, we started turning
-          them into the same foods our family has always made at home — starting with
-          my mother's mango pickle recipe, which is now 40 years old.
-        </p>
-        <p>
-          The name <strong>Haam</strong> comes from our daughter. It's the word she reaches
-          for when she wants to eat — simple, joyful, and completely her own. It felt like
-          exactly the right name for food made with that same instinct: real ingredients,
-          made simply, made to be enjoyed.
-        </p>
-        <p class="story-signoff">— The Haam.food family</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="products" id="products">
+  <section class="shop" id="shop">
     <div class="container">
       <div class="section-head">
-        <p class="eyebrow">What We Make</p>
-        <h2>Five ways we put our mangoes to work</h2>
-        <p class="section-sub">Every product starts with mangoes from our own farm — nothing else.</p>
+        <p class="eyebrow">Shop</p>
+        <h2>Our Collection</h2>
+        <p class="section-sub">Small-batch, farm-direct products — priced the way premium, organic-grade food should be.</p>
       </div>
 
-      <div class="product-grid">
+      <div class="catalog-note">
+        Online ordering is launching soon. Browse the collection below, or
+        <a href="#contact">get in touch</a> to place an early order.
+      </div>
 
-        <article class="product-card featured">
-          <span class="badge badge-recipe">Amma's 40-Year Recipe</span>
-          <div class="product-icon" aria-hidden="true">
-            <img src="images/icon-pickle.svg" alt="">
+      <div class="currency-picker">
+        <label for="currency-select">Show prices in</label>
+        <select id="currency-select">
+          <option value="INR" selected>₹ INR</option>
+          <option value="USD">$ USD</option>
+          <option value="GBP">£ GBP</option>
+          <option value="EUR">€ EUR</option>
+        </select>
+      </div>
+
+      <div class="shop-grid">
+
+        <!-- Mango Pickle -->
+        <article class="product-tile" data-default-color="#a8621a">
+          <div class="pack-visual" style="--pack-color: #a8621a; --pack-color-2: #d99a3f;">
+            <span class="pack-tag pack-tag-left">Amma's 40-Year Recipe</span>
+            <span class="pack-tag">Coming Soon</span>
+            <div class="pack-label-patch">
+              <div class="pack-emblem"><img src="images/icon-pickle.svg" alt=""></div>
+              <p class="pack-variant-label">Sweet</p>
+            </div>
           </div>
-          <h3>Mango Pickle</h3>
-          <p>
-            Made exactly the way my mother has made it for four decades — tangy,
-            spiced and unmistakably homemade. This is the recipe that started it all.
-          </p>
+          <div class="product-tile-body">
+            <h3>Mango Pickle</h3>
+            <div class="variant-tabs" role="tablist" aria-label="Mango Pickle variants">
+              <button type="button" class="variant-tab is-active"
+                data-label="Sweet" data-color="#a8621a" data-color-2="#d99a3f"
+                data-price="329" data-weight="250g jar"
+                data-desc="Sweet, slow-cooked in jaggery and mustard oil — Amma's original recipe. Comes in a reusable glass jar.">Sweet</button>
+              <button type="button" class="variant-tab"
+                data-label="Sour" data-color="#7a2416" data-color-2="#a8402a"
+                data-price="349" data-weight="250g jar"
+                data-desc="Tangy and bold, the classic sour pickle recipe passed down for 40 years. Comes in a reusable glass jar.">Sour</button>
+            </div>
+            <p class="product-desc">Sweet, slow-cooked in jaggery and mustard oil — Amma's original recipe. Comes in a reusable glass jar.</p>
+            <div class="price-row">
+              <span class="price" data-inr="329">₹329</span>
+              <span class="price-unit">/ 250g jar</span>
+            </div>
+          </div>
         </article>
 
-        <article class="product-card">
-          <div class="product-icon" aria-hidden="true">
-            <img src="images/icon-dehydrated.svg" alt="">
+        <!-- Mango Leather -->
+        <article class="product-tile" data-default-color="#d9720f">
+          <div class="pack-visual" style="--pack-color: #d9720f; --pack-color-2: #f0a54a;">
+            <span class="pack-tag">Coming Soon</span>
+            <div class="pack-label-patch">
+              <div class="pack-emblem"><img src="images/icon-leather.svg" alt=""></div>
+              <p class="pack-variant-label">Classic</p>
+            </div>
           </div>
-          <h3>Dehydrated Mango</h3>
-          <p>
-            A wholesome snacking option with nothing added but time — naturally
-            sweet, chewy, and easy to keep in a bag, a desk drawer, or a lunchbox.
-          </p>
+          <div class="product-tile-body">
+            <h3>Mango Leather</h3>
+            <div class="variant-tabs" role="tablist" aria-label="Mango Leather variants">
+              <button type="button" class="variant-tab is-active"
+                data-label="Classic" data-color="#d9720f" data-color-2="#f0a54a"
+                data-price="249" data-weight="100g pack"
+                data-desc="Naturally sweet mango, rolled up — nothing else added.">Classic</button>
+              <button type="button" class="variant-tab"
+                data-label="Spicy" data-color="#a83515" data-color-2="#cc5a2e"
+                data-price="269" data-weight="100g pack"
+                data-desc="Sweet mango with a slow chilli kick — a grown-up take on fruit leather.">Spicy</button>
+            </div>
+            <p class="product-desc">Naturally sweet mango, rolled up — nothing else added.</p>
+            <div class="price-row">
+              <span class="price" data-inr="249">₹249</span>
+              <span class="price-unit">/ 100g pack</span>
+            </div>
+          </div>
         </article>
 
-        <article class="product-card">
-          <span class="badge badge-b2b">B2B / Bulk</span>
-          <div class="product-icon" aria-hidden="true">
-            <img src="images/icon-puree.svg" alt="">
+        <!-- Dehydrated Mango -->
+        <article class="product-tile" data-default-color="#d9b876">
+          <div class="pack-visual" style="--pack-color: #c9a15c; --pack-color-2: #ecd9a8;">
+            <span class="pack-tag">Coming Soon</span>
+            <div class="pack-label-patch">
+              <div class="pack-emblem"><img src="images/icon-dehydrated.svg" alt=""></div>
+              <p class="pack-variant-label">Plain</p>
+            </div>
           </div>
-          <h3>Mango Puree</h3>
-          <p>
-            Consistent, farm-sourced mango puree for bakeries, beverage brands and
-            food businesses that want real mango flavor at scale.
-          </p>
+          <div class="product-tile-body">
+            <h3>Dehydrated Mango</h3>
+            <div class="variant-tabs" role="tablist" aria-label="Dehydrated Mango variants">
+              <button type="button" class="variant-tab is-active"
+                data-label="Plain" data-color="#c9a15c" data-color-2="#ecd9a8"
+                data-price="299" data-weight="100g pouch"
+                data-desc="Just mango and time — naturally sweet, chewy sun-dried slices.">Plain</button>
+              <button type="button" class="variant-tab"
+                data-label="Chilli" data-color="#a8231a" data-color-2="#d14a35"
+                data-price="319" data-weight="100g pouch"
+                data-desc="Sun-dried mango dusted with red chilli for a sweet-hot bite.">Chilli</button>
+              <button type="button" class="variant-tab"
+                data-label="Masala" data-color="#7a4d18" data-color-2="#a67736"
+                data-price="319" data-weight="100g pouch"
+                data-desc="Tossed in a warm spice masala — sweet, tangy and savoury at once.">Masala</button>
+              <button type="button" class="variant-tab"
+                data-label="Amchur" data-color="#a68a1f" data-color-2="#c9b04a"
+                data-price="309" data-weight="100g pouch"
+                data-desc="Dusted with tangy dried mango powder for extra sourness.">Amchur</button>
+            </div>
+            <p class="product-desc">Just mango and time — naturally sweet, chewy sun-dried slices.</p>
+            <div class="price-row">
+              <span class="price" data-inr="299">₹299</span>
+              <span class="price-unit">/ 100g pouch</span>
+            </div>
+          </div>
         </article>
 
-        <article class="product-card">
-          <div class="product-icon" aria-hidden="true">
-            <img src="images/icon-leather.svg" alt="">
+        <!-- Mango Puree (B2B) -->
+        <article class="product-tile">
+          <div class="pack-visual" style="--pack-color: #1f4230; --pack-color-2: #3c7351;">
+            <span class="pack-tag pack-tag-b2b">B2B / Bulk</span>
+            <div class="pack-label-patch">
+              <div class="pack-emblem"><img src="images/icon-puree.svg" alt=""></div>
+              <p class="pack-variant-label">Food Service</p>
+            </div>
           </div>
-          <h3>Mango Leather</h3>
-          <p>
-            Fruit, rolled up. Naturally sweet mango leather in a range of flavors —
-            a fun, better-for-you treat for kids and adults alike.
-          </p>
+          <div class="product-tile-body">
+            <h3>Mango Puree</h3>
+            <p class="product-desc">
+              Consistent, farm-sourced mango puree for bakeries, beverage brands
+              and food businesses that want real mango flavor at scale.
+            </p>
+            <div class="price-row">
+              <span class="price" data-inr="180">₹180</span>
+              <span class="price-unit">/ kg, starting &mdash; bulk, MOQ applies</span>
+            </div>
+            <a href="#contact" class="btn btn-ghost btn-small">Request Bulk Quote</a>
+          </div>
         </article>
 
-        <article class="product-card">
-          <div class="product-icon" aria-hidden="true">
-            <img src="images/icon-gifting.svg" alt="">
+        <!-- Gifting Mangoes (secondary) -->
+        <article class="product-tile product-tile-secondary">
+          <div class="pack-visual" style="--pack-color: #a8760a; --pack-color-2: #d9ad3d;">
+            <span class="pack-tag">Seasonal</span>
+            <div class="pack-label-patch">
+              <div class="pack-emblem"><img src="images/icon-gifting.svg" alt=""></div>
+              <p class="pack-variant-label">Gift Box</p>
+            </div>
           </div>
-          <h3>Gifting Mangoes</h3>
-          <p>
-            Beautifully packed, farm-fresh mangoes ready to send to someone you love —
-            for a festival, a thank-you, or just because.
-          </p>
+          <div class="product-tile-body">
+            <h3>Gifting Mangoes</h3>
+            <p class="product-desc">
+              Beautifully packed, farm-fresh mangoes ready to send to someone you
+              love. Seasonal availability — <a href="#contact">contact us</a> for
+              current box sizes and pricing.
+            </p>
+          </div>
         </article>
 
       </div>
+
+      <p class="price-footnote">
+        * Prices shown are indicative, positioned at premium/organic-market
+        standards, and converted at approximate exchange rates for reference only.
+        Packaging visuals are illustrated concepts, not final product photography.
+      </p>
     </div>
   </section>
 
@@ -160,9 +244,40 @@
         <p>
           We supply mango puree in bulk directly from our farm, for bakeries,
           beverage makers, ice cream brands and other food businesses. Reach out
-          and let's talk about volumes, seasons and samples.
+          and let's talk about volumes, seasons and samples — and ask us about
+          what other fruit purees are coming next.
         </p>
         <a href="#contact" class="btn btn-primary">Talk to Us About Wholesale</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="story" id="about">
+    <div class="container story-inner">
+      <div class="story-art" aria-hidden="true">
+        <img src="images/story-illustration.svg" alt="">
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">About Us</p>
+        <h2>It started on our farm — and with a word from our daughter.</h2>
+        <p>
+          Every season, our family farm gives us far more fruit than we could ever eat
+          fresh — mangoes first, with more on the way. Rather than let any of it go to
+          waste, we started turning it into the same foods our family has always made
+          at home, beginning with my mother's mango pickle recipe, now 40 years old.
+        </p>
+        <p>
+          The name <strong>Haam</strong> comes from our daughter. It's the word she reaches
+          for when she wants to eat — simple, joyful, and completely her own. It felt like
+          exactly the right name for food made with that same instinct: real ingredients,
+          made simply, made to be enjoyed.
+        </p>
+        <p>
+          Haam.food isn't a mango company — it's a farm-to-food company that happens
+          to have started with mango. As our farm grows into new fruits and vegetables,
+          so will what's on this page.
+        </p>
+        <p class="story-signoff">— The Haam.food family</p>
       </div>
     </div>
   </section>
@@ -188,7 +303,7 @@
       <img src="images/logo-mark.svg" alt="" class="logo-mark" width="26" height="26">
       <span>Haam<span class="logo-dot">.food</span></span>
     </a>
-    <p class="footer-tagline">Farm-grown mangoes. Family recipes. Made to be shared.</p>
+    <p class="footer-tagline">Farm-grown fruit. Family recipes. Made to be shared.</p>
     <p class="footer-copy">&copy; <span id="year"></span> Haam.food. All rights reserved.</p>
   </div>
 </footer>

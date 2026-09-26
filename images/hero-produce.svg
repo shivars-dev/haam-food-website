@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420">
+  <ellipse cx="210" cy="230" rx="160" ry="140" fill="#fff1da"/>
+
+  <!-- basket -->
+  <path d="M110 300 L130 380 Q210 400 290 380 L310 300 Z" fill="#c9974f"/>
+  <path d="M110 300 L130 380 Q210 400 290 380 L310 300"
+        fill="none" stroke="#a5763a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M118 315h184M124 335h172M131 355h158M139 373h142"
+        stroke="#a5763a" stroke-width="3" opacity="0.55"/>
+  <path d="M108 300h204l-8 18H116z" fill="#e2b06e"/>
+
+  <!-- mango, back-left -->
+  <g transform="translate(105,150) rotate(-12)">
+    <path d="M55 0c34 2 60 34 60 72 0 42-30 78-66 78S-16 114-16 72C-16 34 12 2 46 0h9z" fill="#f5921b"/>
+    <ellipse cx="30" cy="35" rx="24" ry="30" fill="#ffab3d" opacity="0.6"/>
+    <path d="M46 0c-2-9-1-17 4-24" stroke="#8b6b3d" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- round citrus, back-right -->
+  <g transform="translate(300,165)">
+    <circle r="42" fill="#ffb703"/>
+    <circle r="42" fill="#fff" opacity="0.0"/>
+    <ellipse cx="-14" cy="-14" rx="16" ry="12" fill="#ffd166" opacity="0.7"/>
+    <path d="M0 -42c-2-10 4-18 14-20" stroke="#2f5d42" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="14" cy="-46" rx="12" ry="7" fill="#2f5d42"/>
+  </g>
+
+  <!-- apple / red fruit, front-left -->
+  <g transform="translate(150,255)">
+    <path d="M0 -30c14 0 26 14 26 34s-14 40-30 40-30-20-30-40 12-34 26-34z" fill="#e0522f"/>
+    <ellipse cx="-10" cy="-8" rx="10" ry="14" fill="#f2795a" opacity="0.7"/>
+    <path d="M0 -30c-1-8 3-14 10-17" stroke="#8b6b3d" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="12" cy="-40" rx="10" ry="6" fill="#3c7351"/>
+  </g>
+
+  <!-- plum / purple fruit cluster, front-center -->
+  <g transform="translate(225,270)">
+    <circle cx="-14" cy="0" r="17" fill="#6b4b8a"/>
+    <circle cx="10" cy="10" r="20" fill="#7d5a9c"/>
+    <circle cx="20" cy="-12" r="14" fill="#8a6bab"/>
+    <ellipse cx="4" cy="4" rx="8" ry="10" fill="#a889c4" opacity="0.6"/>
+  </g>
+
+  <!-- leafy green veg, front-right -->
+  <g transform="translate(300,258)">
+    <path d="M0 30c-4-22 4-42 22-54 4 22-2 44-22 54z" fill="#3c7351"/>
+    <path d="M6 30c0-24 12-42 32-50 2 24-10 44-32 50z" fill="#2f5d42"/>
+    <path d="M-8 32c-2-18 4-32 16-40" stroke="#264d38" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- leaf accents -->
+  <path d="M209 66c4-24 26-42 52-44-2 26-22 47-48 52-4 1-5-4-4-8z" fill="#2f5d42"/>
+
+  <!-- decorative dots -->
+  <circle cx="340" cy="110" r="9" fill="#8bc78f" opacity="0.7"/>
+  <circle cx="75" cy="120" r="7" fill="#f5921b" opacity="0.45"/>
+  <circle cx="350" cy="300" r="8" fill="#6b4b8a" opacity="0.35"/>
+  <circle cx="80" cy="290" r="6" fill="#e0522f" opacity="0.4"/>
+</svg>
