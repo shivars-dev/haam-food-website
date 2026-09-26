@@ -67,10 +67,10 @@ function renderPrices() {
 }
 
 if (currencySelect) {
-  const saved = localStorage.getItem('haam-currency');
+  const saved = localStorage.getItem('hamm-currency');
   if (saved && CURRENCY[saved]) currencySelect.value = saved;
   currencySelect.addEventListener('change', () => {
-    localStorage.setItem('haam-currency', currencySelect.value);
+    localStorage.setItem('hamm-currency', currencySelect.value);
     renderPrices();
   });
 }

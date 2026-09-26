@@ -1,6 +1,6 @@
-# Haam.food
+# Hamm.food
 
-Marketing website for **Haam.food** — a small family brand that turns farm-grown
+Marketing website for **Hamm.food** — a small family brand that turns farm-grown
 mangoes into pickles, dehydrated snacks, puree, fruit leather and gifting mangoes.
 
 Plain HTML/CSS/JS, no build step, deployed with GitHub Pages.
@@ -21,7 +21,7 @@ the story section, and the contact email are plain text, easy to edit without
 touching CSS or JS.
 
 Placeholders to update before launch:
-- Contact email in the "Get in Touch" section (`hello@haam.food`)
+- Contact email in the "Get in Touch" section (`hello@hamm.food`)
 - Add real product photos in `images/` and swap them in for the SVG icons if desired
 - Social links in the footer, once accounts exist
 
